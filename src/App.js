@@ -6,13 +6,13 @@ import TodoInput from './TodoInput'
 import TodoItem from './TodoItem'
 import * as localStore from './localStore'
 
-var APP_ID = 'ttfT4FPkoQ5uSAOWVBy6BT9z-gzGzoHsz'
-var APP_KEY = 'RR4cpVY1AiF5y2yXKGGbdOKd'
+var APP_ID = 'oIppdUGvtJpYxmAfLnPkyERm-gzGzoHsz';
+var APP_KEY = 'PNsOLKkHdqUWYJgxoRKR5VbE';
 
 AV.init({
     appId: APP_ID,
     appKey: APP_KEY
-})
+});
 
 var TestObject = AV.Object.extend('TestObject');
 var testObject = new TestObject();
